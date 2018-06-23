@@ -27,7 +27,7 @@ var server = http.createServer(app);
  */
 
 server.listen(port,config.IPADDRESS, function() {
-  console.info('TileServer on http://%s:%s',config.IPADDRESS, port);
+  console.info('zj-water-server on http://%s:%s',config.IPADDRESS, port);
 });
 server.on('error', onError);
 server.on('listening', onListening);
